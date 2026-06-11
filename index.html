@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horta Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Horta Sustentável</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Horta Sustentável</h2>
+        <p>Uma horta sustentável é uma maneira de cultivar alimentos respeitando a natureza, economizando água e evitando produtos químicos.</p>
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas de Cultivo</h2>
+        <ul id="lista-dicas">
+            <li>Use compostagem para fertilizar naturalmente.</li>
+            <li>Prefira sementes orgânicas.</li>
+            <li>Reaproveite água da chuva.</li>
+        </ul>
+        <input type="text" id="nova-dica" placeholder="Adicione uma nova dica">
+        <button id="adicionar-dica">Adicionar Dica</button>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem-sucesso"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Horta Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
